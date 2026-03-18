@@ -1,0 +1,44 @@
+:root {
+  /* Default: Modern Minimal */
+  --bg-main: #f8fafc;
+  --bg-card: #ffffff;
+  --text-primary: #0f172a;
+  --text-secondary: #64748b;
+  --accent-primary: #0ea5e9;
+  --accent-secondary: #e0f2fe;
+  --border-color: #e2e8f0;
+  
+  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
+
+[data-theme="classic"] {
+  --bg-main: #eff6ee;
+  --bg-card: #ffffff;
+  --text-primary: #14532d;
+  --text-secondary: #166534;
+  --accent-primary: #d97706;
+  --accent-secondary: #fef3c7;
+  --border-color: #dcfce7;
+}
+
+[data-theme="dark"] {
+  --bg-main: #0f172a;
+  --bg-card: #1e293b;
+  --text-primary: #f8fafc;
+  --text-secondary: #cbd5e1;
+  --accent-primary: #38bdf8;
+  --accent-secondary: #0c4a6e;
+  --border-color: #334155;
+}
+
+[data-theme="vibrant"] {
+  --bg-main: #fdf4ff;
+  --bg-card: #ffffff;
+  --text-primary: #4a044e;
+  --text-secondary: #701a75;
+  --accent-primary: #d946ef;
+  --accent-secondary: #fae8ff;
+  --border-color: #fbcfe8;
+}
